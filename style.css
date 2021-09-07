@@ -1,0 +1,39 @@
+body{
+    background-color: #EFEFEF;
+}
+
+button{
+    padding: 0.3rem 1rem;
+    border: none;
+    background-color: #7768CC;
+    border-radius: 0.3rem;
+    color: #fff;
+}
+
+.container-fluid{
+    width: 100%;
+    min-height: 100vh ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row:first-child{
+    background-color: #fff;
+}
+
+.main-heading{
+    font-size: clamp(22px, 6.5vw, 35px) ;
+    word-break: keep-all;
+    
+}
+
+.main-para{
+
+    font-size: clamp(17px, 1.6vw, 22.6px);
+}
+
+.x{
+    justify-items: center;
+}
+
